@@ -7,7 +7,7 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     
-    pkg_bme_gazebo_basics = FindPackageShare('bme_gazebo_basics')
+    pkg_bme_gazebo_basics = FindPackageShare('erc_sor_ros_session1'')
     default_rviz_config_path = PathJoinSubstitution([pkg_bme_gazebo_basics, 'rviz', 'urdf.rviz'])
 
     # Show joint state publisher GUI for joints
