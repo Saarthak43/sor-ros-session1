@@ -13,7 +13,7 @@ def generate_launch_description():
         description='Name of the Gazebo world file to load'
     )
 
-    pkg_bme_gazebo_basics = get_package_share_directory('bme_gazebo_basics')
+    pkg_bme_gazebo_basics = get_package_share_directory(''erc_sor_ros_session1'')
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
 
     # Add your own gazebo library path here
